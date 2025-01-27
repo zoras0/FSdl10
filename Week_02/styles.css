@@ -1,0 +1,14 @@
+body {
+    background-color: powderblue;
+  }
+  h1 {
+    color: beige;
+  }
+  p {
+    color: bisque;
+  }
+
+.bottom-center-text {
+    margin-bottom: 20px;
+   
+}
