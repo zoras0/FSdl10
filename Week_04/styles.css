@@ -59,9 +59,11 @@ h2 {
   text-align: center;
 }
 
-p2{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: bisque;
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: vh;
   text-align: center;
 }
-
