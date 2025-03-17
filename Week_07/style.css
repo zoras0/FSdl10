@@ -17,7 +17,7 @@ line-height: 1.5;
     position: absolute;
     top:0;
     right: 0;
-    opacity: 1.8;
+    opacity: 100;
     z-index: -1;
     width: 100%;
 }
@@ -113,7 +113,7 @@ color: #000000;
    background: linear-gradient(to right,#000000,#2f2d2d,#444444);
    background-size: 200%;
    animation: animationGradient 2.5s linear infinite;
-   box-shadow: #383838 0px 0px 50px;
+   box-shadow: #383838 0px 0px 0px;
 }
 @keyframes animationGradient {
   0% {
@@ -205,13 +205,13 @@ color: #000000;
     .btn-know:hover {
         background-color: #383838; /* Change background color on hover */
     }
-    .robot{
+    .phone{
         position: absolute;
         bottom: 0;
         right: 0;
         width: 50%;
         z-index: 999;
-        scale: 1.5px;
-        height: 85%;
+        scale: 50px;
+        height: 150%;
     top: auto;
     }
