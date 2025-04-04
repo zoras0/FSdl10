@@ -1,0 +1,44 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#home {
+    background: linear-gradient(135deg, #6a0dad, #ff69b4, #ff4500);
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Push main content to fill available space */
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-top: auto;
+    padding: 20px 0;
+    width: 100%;
+}
